@@ -12,9 +12,9 @@ const BottomTabNav = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        activeColor="white"
+        activeColor="red"
         inactiveColor="yellow"
-        barStyle={{ backgroundColor: "green", paddingBottom: 20 }}
+        barStyle={{ backgroundColor: "green", paddingBottom: 20}}
         initialRouteName="Home"
         backBehavior="history"
         shifting={true}
